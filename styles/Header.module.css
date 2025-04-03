@@ -1,0 +1,101 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #232f3e; /* Cor de fundo da header */
+  color: white;
+  padding: 10px 20px;
+}
+
+.topBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.logo {
+  height: 40px;
+}
+
+.deliveryInfo {
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.updateCep {
+  color: #0073e6;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+.updateCep:hover {
+  text-decoration: underline;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.categorySelect {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+  background-color: #f3f3f3;
+}
+
+.searchBar input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0;
+}
+
+.searchButton {
+  padding: 8px 12px;
+  background-color: #febd69;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.options span {
+  margin: 0 15px;
+  white-space: nowrap;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Permite quebra de linha se necessário */
+  font-size: 14px;
+  padding: 10px 0;
+  border-top: 1px solid #3a4553;
+  border-bottom: 1px solid #3a4553;
+}
+
+.navbar span {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.navbar span:hover {
+  text-decoration: underline;
+}
+
+.highlight {
+  color: #febd69;
+  font-weight: bold;
+}
