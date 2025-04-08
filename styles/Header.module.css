@@ -21,6 +21,7 @@
   font-size: 12px;
   display: flex;
   align-items: center;
+  margin-left: 10px; /* Ajusta o espaçamento entre o logo e o texto */
 }
 
 .updateCep {

@@ -36,8 +36,6 @@ const Header = () => {
         </button>
       </div>
 
-  
-
       {/* Navigation Bar */}
       <nav className={styles.navbar}>
         <span>Todos</span>
