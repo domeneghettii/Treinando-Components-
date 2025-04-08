@@ -12,9 +12,17 @@ const Header = () => {
           className={styles.logo}
         />
         <span className={styles.deliveryInfo}>
-          A entrega será feita em Valinhos 13270000
+          <span role="img" aria-label="location">📍</span> A entrega será feita em Valinhos 13270000
           <a href="#" className={styles.updateCep}>Atualizar CEP</a>
         </span>
+      </div>
+
+      {/* Options */}
+      <div className={styles.options}>
+        <span>Olá, faça seu login</span>
+        <span>Contas e Listas</span>
+        <span>Devoluções e Pedidos</span>
+        <span>Carrinho <span role="img" aria-label="cart">🛒</span></span>
       </div>
 
       {/* Search Bar */}
@@ -28,13 +36,7 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Options */}
-      <div className={styles.options}>
-        <span>Olá, faça seu login</span>
-        <span>Contas e Listas</span>
-        <span>Devoluções e Pedidos</span>
-        <span>Carrinho <span role="img" aria-label="cart">🛒</span></span>
-      </div>
+  
 
       {/* Navigation Bar */}
       <nav className={styles.navbar}>
