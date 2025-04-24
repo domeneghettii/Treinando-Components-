@@ -9,7 +9,7 @@
 
 .footerSections {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  /* Alinha os itens no footer */
     margin-bottom: 20px;
 }
 

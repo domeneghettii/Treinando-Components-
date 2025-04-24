@@ -1,3 +1,11 @@
+/* Estilo global para o corpo da página */
+body {
+  margin: 0;
+  background-color: #f3f3f3; /* Cor de fundo */
+  color: #333; /* Cor do texto */
+}
+
+/* Estilo para a página principal */
 .page {
   display:grid;
   grid-template-rows: 20px 1fr 20px;

@@ -17,12 +17,15 @@ const Header = () => {
         />
 
         {/* Informações de entrega com ícone de localização e opção de atualizar CEP */}
+
         <span className={styles.deliveryInfo}>
           <span role="img" aria-label="location">📍</span> A entrega será feita em Valinhos 13270000
           <a href="#" className={styles.updateCep}>Atualizar CEP</a>
         </span>
       </div>
 
+      {/* Barra de opções com links para login, contas e listas, devoluções e carrinho */}
+      {/* A barra de opções contém links para login, contas e listas, devoluções e carrinho */}
   
       <div className={styles.options}>
         <span>Olá, faça seu login</span>
@@ -31,6 +34,9 @@ const Header = () => {
         <span>Carrinho <span role="img" aria-label="cart">🛒</span></span>
       </div>
 
+
+      {/* Barra de pesquisa com opções de categoria e botão de pesquisa */}
+      {/* A barra de pesquisa contém um seletor de categoria, um campo de entrada para pesquisa e um botão de pesquisa */}
      
       <div className={styles.searchBar}>
         <select className={styles.categorySelect}>
@@ -42,6 +48,8 @@ const Header = () => {
         </button>
       </div>
 
+
+      {/* Barra de navegação com links para diferentes seções do site */}
      
       <nav className={styles.navbar}>
         <span>Todos</span>
