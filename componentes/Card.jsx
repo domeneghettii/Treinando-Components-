@@ -1,6 +1,9 @@
 import React from 'react';
 import styles from '../styles/Card.module.css'; // Importando o CSS do Card
 
+
+// Definindo o componente Card
+// Este componente representa um cartão que exibe informações sobre produtos ou promoções.
 const Card = () => {
     const cards = [
         { 
@@ -25,13 +28,15 @@ const Card = () => {
         },
     ];
 
+    // Renderizando os cartões
+    // Cada cartão contém um título, uma imagem e um link para mais informações.
     return (
         <div className={styles['cards-container']}>
             {cards.map((card, index) => (
                 <div key={index} className={styles.card}>
                     <h2>{card.title}</h2>
-                    <img src={card.image} alt={card.title} />
-                    <a href="#" className={styles.link}>{card.description}</a> {/* Link adicionado */}
+                    <img src={card.image} alt={card.title} /> // Imagem do cartão
+                    <a href="#" className={styles.link}>{card.description}</a> // Link para mais informações
                 </div>
             ))}
         </div>

@@ -8,7 +8,7 @@
 
 .topBar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* Alinha os itens no topo da barra */
   align-items: center;
   margin-bottom: 10px;
 }

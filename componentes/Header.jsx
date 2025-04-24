@@ -3,21 +3,27 @@ import styles from '../styles/Header.module.css';
 
 const Header = () => {
   return (
+    // Definiendo a estrutura do cabeçalho da página
     <header className={styles.header}>
-      {/* Top Bar */}
+    
+      {/* Barra superior com o logo e informações de entrega */}
       <div className={styles.topBar}>
+
+        {/* Logo da Amazon com link para a página inicial */} 
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
           alt="Amazon Logo"
           className={styles.logo}
         />
+
+        {/* Informações de entrega com ícone de localização e opção de atualizar CEP */}
         <span className={styles.deliveryInfo}>
           <span role="img" aria-label="location">📍</span> A entrega será feita em Valinhos 13270000
           <a href="#" className={styles.updateCep}>Atualizar CEP</a>
         </span>
       </div>
 
-      {/* Options */}
+  
       <div className={styles.options}>
         <span>Olá, faça seu login</span>
         <span>Contas e Listas</span>
@@ -25,7 +31,7 @@ const Header = () => {
         <span>Carrinho <span role="img" aria-label="cart">🛒</span></span>
       </div>
 
-      {/* Search Bar */}
+     
       <div className={styles.searchBar}>
         <select className={styles.categorySelect}>
           <option value="todos">Todos</option>
@@ -36,7 +42,7 @@ const Header = () => {
         </button>
       </div>
 
-      {/* Navigation Bar */}
+     
       <nav className={styles.navbar}>
         <span>Todos</span>
         <span>Venda na Amazon</span>

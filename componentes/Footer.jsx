@@ -1,6 +1,9 @@
 import React from "react";
 import styles from "../styles/Footer.module.css"; // Importando o CSS da Footer
 
+
+// Definindo o componente Footer
+// Este componente representa o rodapé da página, que contém informações adicionais e links úteis para os usuários.
 const Footer = () => {
   return (
     <footer className={styles.footer}>
@@ -35,6 +38,7 @@ const Footer = () => {
           </ul>
         </div>
       </div>
+
       <div className={styles.footerBottom}>
         <img
           src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
